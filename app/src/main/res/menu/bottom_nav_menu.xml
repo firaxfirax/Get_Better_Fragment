@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/miHome"
+        android:icon="@drawable/ic_home"
+        android:title="Home"
+
+        />
+
+    <item
+        android:id="@+id/miStatistics"
+        android:icon="@drawable/ic_statistics"
+        android:title="Statistics"
+
+        />
+
+    <item
+        android:id="@+id/textinput_placeholder"
+        android:title="" />
+
+    <item
+        android:id="@+id/miLessons"
+        android:icon="@drawable/ic_lessons"
+        android:title="Lessons"
+
+        />
+
+    <item
+        android:id="@+id/miShopping"
+        android:icon="@drawable/ic_shopping"
+        android:title="Shopping"
+
+        />
+
+</menu>
