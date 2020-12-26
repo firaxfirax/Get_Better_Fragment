@@ -23,13 +23,5 @@ public class AddHabitFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-
-
-
-
-    //test2
-
-
-
     }
 }
