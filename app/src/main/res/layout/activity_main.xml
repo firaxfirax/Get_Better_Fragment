@@ -9,10 +9,10 @@
     <FrameLayout
         android:id="@+id/fragmentContainer"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="wrap_content" />
+    // проверить зачем он, как то тоже к мею относится
 
-        />
-
+    //начало нижнего меню
 
     <com.google.android.material.bottomappbar.BottomAppBar
         android:id="@+id/bottomAppBar"
@@ -30,13 +30,21 @@
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/showAdd"
-        android:onClick="showAddButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:keyboardNavigationCluster="true"
+        android:onClick="showAddButton"
         android:src="@drawable/ic_add"
         app:layout_anchor="@id/bottomAppBar"
-        android:keyboardNavigationCluster="true"
         app:maxImageSize="35dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewHabits"
+        android:layout_width="match_parent"
+        android:layout_height="601dp" />
+
+
+    //конечн нижнего меню
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
